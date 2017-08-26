@@ -1,6 +1,7 @@
 require 'pessoa'
 
 describe 'Atributos' do
+
    # before(:each) do
    #   @pessoa = Pessoa.new
    # end
