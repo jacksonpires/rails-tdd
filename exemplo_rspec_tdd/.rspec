@@ -1,2 +1,5 @@
 --require spec_helper
 --format documentation
+--tag type:collection
+--tag ~slow
+
