@@ -5,4 +5,12 @@ class Student
     ##### true / false
     # course.complete?
   end
+
+  def foo(arg)
+    ######
+  end
+
+  def bar
+    ####
+  end
 end
