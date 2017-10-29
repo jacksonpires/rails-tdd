@@ -15,6 +15,8 @@ ActiveRecord::Schema.define(version: 20171017224053) do
   create_table "customers", force: :cascade do |t|
     t.string "name"
     t.string "email"
+    t.boolean "vip"
+    t.integer "days_to_pay"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
