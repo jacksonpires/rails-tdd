@@ -5,8 +5,8 @@ FactoryBot.define do
       upcased false
     end
 
-    name Faker::Name.name
-    email Faker::Internet.email
+    name { Faker::Name.name }
+    email { Faker::Internet.email }
 
     trait :male do
       gender 'M'
