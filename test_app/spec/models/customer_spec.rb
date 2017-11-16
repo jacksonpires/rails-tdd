@@ -5,8 +5,6 @@ RSpec.describe Customer, type: :model do
   it '#full_name - Sobrescrevendo Atributo' do
     customer = create(:customer, name: "Jackson Pires" )
     customer1 = create(:customer, name: "Jackson Pires" )
-    puts customer.email
-    puts customer1.email
     expect(customer.full_name).to eq("Sr. Jackson Pires")
   end
 
