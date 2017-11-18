@@ -40,6 +40,7 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_bot_rails', '~> 4.0'
   gem 'faker'
+  gem 'httparty'
 end
 
 group :development do
