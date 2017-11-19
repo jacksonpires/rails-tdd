@@ -64,4 +64,132 @@ http_interactions:
         }
     http_version: 
   recorded_at: Sun, 19 Nov 2017 19:17:04 GMT
+- request:
+    method: get
+    uri: "<API-URL>/posts/4"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 19 Nov 2017 22:14:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dc97d6a97251fe97d44b02be7041f05ca1511129663; expires=Mon, 19-Nov-18
+        22:14:23 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 20 Nov 2017 02:14:23 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"10e-HqG77o1RAmatkSwR36f4+Io6g1E"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3c0685af3ab34a54-GRU
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 4,
+          "title": "eum et est occaecati",
+          "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+        }
+    http_version: 
+  recorded_at: Sun, 19 Nov 2017 22:14:24 GMT
+- request:
+    method: get
+    uri: "<API-URL>/posts/3"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 19 Nov 2017 22:15:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df63c3dccd330257377d42be6653678b01511129700; expires=Mon, 19-Nov-18
+        22:15:00 GMT; path=/; domain=.typicode.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      Expires:
+      - Mon, 20 Nov 2017 02:15:00 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"11b-USacuIw5a/iXAGdNKBvqr/TbMTc"
+      Via:
+      - 1.1 vegur
+      Cf-Cache-Status:
+      - HIT
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3c068696d9a44c54-GRU
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "userId": 1,
+          "id": 3,
+          "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+          "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+        }
+    http_version: 
+  recorded_at: Sun, 19 Nov 2017 22:15:01 GMT
 recorded_with: VCR 3.0.3
