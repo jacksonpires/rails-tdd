@@ -28,6 +28,9 @@ ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
 
+  # Time Helper
+  config.include ActiveSupport::Testing::TimeHelpers
+
   # FactoryBot
   config.include FactoryBot::Syntax::Methods
 
