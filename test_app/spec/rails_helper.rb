@@ -28,6 +28,9 @@ ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
 
+  # Devise
+  config.include Devise::Test::ControllerHelpers, :type => :controller
+
   # Shoulda Matchers
   Shoulda::Matchers.configure do |config|
     config.integrate do |with|
