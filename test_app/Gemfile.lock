@@ -164,6 +164,7 @@ GEM
     rspec-expectations (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
+    rspec-json_expectations (2.1.0)
     rspec-mocks (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
@@ -255,6 +256,7 @@ DEPENDENCIES
   puma (~> 3.7)
   rails (~> 5.1.4)
   rails-controller-testing
+  rspec-json_expectations
   rspec-rails (~> 3.6)
   sass-rails (~> 5.0)
   selenium-webdriver
@@ -271,4 +273,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.15.3
+   1.15.4
