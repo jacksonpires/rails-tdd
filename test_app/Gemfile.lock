@@ -98,6 +98,10 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    json-schema (2.8.0)
+      addressable (>= 2.4)
+    json_matchers (0.7.2)
+      json-schema (~> 2.7)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -252,6 +256,7 @@ DEPENDENCIES
   faker
   httparty
   jbuilder (~> 2.5)
+  json_matchers
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
   rails (~> 5.1.4)
@@ -273,4 +278,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

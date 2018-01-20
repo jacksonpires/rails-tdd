@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "customer" : {
+      "required" : ["id", "name", "email"],
+      "properties" : {
+        "id" : { "type" : "integer" },
+        "email" : { "type" : "string" },
+        "name" : { "type" : "string" },
+        "created_at" : { "type" : "string", "format": "date-time" },
+        "updated_at" : { "type" : "string", "format": "date-time" }
+      }
+    }
+  }
+}
